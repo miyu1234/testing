@@ -108,7 +108,7 @@
         const extraPerPerson = totalExtra / 4;
 
         // 組建文字
-        let report = `(${currentMonth}月)月雜費項目:\n`;
+        let report = `${currentMonth}月雜費項目:\n`;
         expenses.forEach(ex => {
             report += `${ex.payer} - ${ex.itemName} : $${ex.amount}\n`;
         });
