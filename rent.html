@@ -78,10 +78,10 @@
         const currentMonth = now.getMonth() + 1;
         const nextMonth = currentMonth === 12 ? 1 : currentMonth + 1;
 
-        const targetOrder = ["LISA", "雲暇", "MIYU", "江育文"];
+        const targetOrder = ["LISA", "雲暇", "MIYU", "弱貓"];
         const lines = rawText.split('\n');
         let expenses = [];
-        let roommatePaid = { "LISA": 0, "雲暇": 0, "MIYU": 0, "江育文": 0 };
+        let roommatePaid = { "LISA": 0, "雲暇": 0, "MIYU": 0, "弱貓": 0 };
         let totalExtra = 0;
 
         lines.forEach(line => {
